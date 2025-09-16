@@ -5,7 +5,7 @@ vim.keymap.set('n', '<leader>f', '<cmd>Oil --float . <cr>', { desc = "Find files
 vim.diagnostic.config({
     virtual_text = true, -- Display diagnostics as inline text
     -- Other options can be added here, like:
-    -- signs = true,       -- Show icons in the gutter
-    -- underline = true,    -- Highlight the affected text
+    signs = false,       -- Show icons in the gutter
+    underline = true,    -- Highlight the affected text
 })
 vim.cmd 'colorscheme atom-dark-256'
