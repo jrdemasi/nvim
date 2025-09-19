@@ -9,3 +9,5 @@ vim.diagnostic.config({
   underline = true,    -- Highlight the affected text
 })
 vim.cmd 'colorscheme atom-dark-256'
+vim.opt.laststatus = 0
+vim.opt.showmode = false 
