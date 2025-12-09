@@ -8,6 +8,6 @@ vim.diagnostic.config({
   signs = false,       -- Show icons in the gutter
   underline = true,    -- Highlight the affected text
 })
-vim.cmd 'colorscheme atom-dark-256'
+-- vim.cmd 'colorscheme atom-dark-256'
 vim.opt.laststatus = 0
 vim.opt.showmode = false 
